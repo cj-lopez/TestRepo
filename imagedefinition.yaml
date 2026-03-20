@@ -4,7 +4,8 @@ image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m36
 description: "Tester Workload"
 
 tasks:
-  - name: winget
+  - name: ~/winget
     parameters:
       downloadUrl: "https://carlosstorage323.blob.core.windows.net/carloscontainer/team-personalizations.dsc.yaml"
       configurationFile: "c:\\temp\\team-personalizations.dsc.yaml"
+      templatePath: "c:\\temp\\winget-template.ps1"
