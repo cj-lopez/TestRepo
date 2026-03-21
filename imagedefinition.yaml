@@ -6,6 +6,5 @@ description: "Tester Workload"
 tasks:
   - name: ~/winget
     parameters:
-      configure:"team-personalizations.dsc.yaml"
       downloadUrl: "https://carlosstorage323.blob.core.windows.net/carloscontainer/team-personalizations.dsc.yaml"
-      configurationFile: "c:\\temp\\team-personalizations.dsc.yaml"
+      
