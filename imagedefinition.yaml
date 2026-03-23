@@ -8,4 +8,3 @@ tasks:
     parameters:
       downloadUrl: "https://carlosstorage323.blob.core.windows.net/carloscontainer/team-personalizations.dsc.yaml"
       configurationFile: "c:\\temp\\team-personalizations.dsc.yaml"
-      configure: "c:\\temp\\team-personalizations.dsc.yaml"
