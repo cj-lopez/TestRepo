@@ -3,7 +3,7 @@ name: "carlos-frontend-dev"
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
 description: "Tester frontend development environment for Carlos"
 
-tasks:
+userTasks:
   - name: winget
     parameters:
       downloadUrl: "https://carlosstorage323.blob.core.windows.net/carloscontainer/team-personalizations.dsc.yaml"
